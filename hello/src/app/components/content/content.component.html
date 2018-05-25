@@ -1,0 +1,30 @@
+
+ <div class="same">
+
+   {{'1' | formatNum }} <br/>
+   {{'23' | formatNum }} <br/>
+   {{'3AB' | formatNum }} <br/>
+   {{'123456' | formatNum }} <br/>
+   {{true | formatNum }} <br/>
+   {{ 123 | formatNum }} <br/>
+   {{ {'k':'v'} | formatNum }} <br/>
+   
+   <br/> <br/>
+
+   {{'1' | formatNum:7 }} <br/>
+   {{'23' | formatNum:7 }} <br/>
+   {{'3AB' | formatNum:7 }} <br/>
+   {{'123456' | formatNum:7 }} <br/>
+
+ </div>
+
+   <div *ngFor="let d of data" class="feed"> 
+      <div class="title">
+        {{d.title}} 
+      </div>
+      <div class="body">
+        {{d.body}}
+      </div>
+    </div>
+    
+

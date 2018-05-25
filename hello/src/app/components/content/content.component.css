@@ -1,0 +1,19 @@
+
+.feed {
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.body {
+    font-size: 16px;
+    color:#888;
+}
+
+.same {
+    font-family: 'Courier New', Courier, monospace;
+}

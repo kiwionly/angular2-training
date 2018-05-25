@@ -1,0 +1,6 @@
+<div *ngFor="let d of list" class="feed">
+  <div class="body">
+    <a [routerLink]="['../', d.id]">{{d.username}}</a> 
+    {{d.name}} -  - {{d.email}}
+  </div>
+</div>

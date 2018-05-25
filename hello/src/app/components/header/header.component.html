@@ -1,0 +1,14 @@
+<p class="bg">
+  {{name | nvl | uppercase }}
+</p>
+
+<div class="in">
+  <label>email</label>
+  <input type="email" [(ngModel)]="credential.email">
+  <label>password</label>
+  <input type="password"  [value]="credential.password" (change)="credential.password = $event.target.value">
+</div>
+
+<button type="button" (click)='login()'>login la  
+</button>
+

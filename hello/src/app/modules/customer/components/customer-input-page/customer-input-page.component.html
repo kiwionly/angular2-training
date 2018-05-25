@@ -1,0 +1,19 @@
+<form #frm="ngForm">
+  <div>
+    <label for="">name</label>
+    <input type="text" name="name" ngModel>
+  </div>
+  <div>
+    <p>address</p>
+    <div>
+        <label for="">line1</label>
+        <input type="text" name="line" ngModel>
+    </div>
+    <div>
+        <label for="">postcode</label>
+        <input type="text" name="postcode" ngModel>
+    </div>
+  </div>
+  <button value="add" type="button" (click)="submit(frm.value)">add</button>
+ </form>
+ 
