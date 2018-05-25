@@ -2,7 +2,14 @@ import { Component, OnInit } from '@angular/core';
 import { HeaderService } from '../../../../components/header.service';
 import { IExit } from '../../../../login.guard';
 
-export interface User { }
+export interface User {
+  name: string;
+  username: string;
+  email: string;
+  address: string;
+  suite: string;
+  city: string;
+}
 
 @Component({
   selector: 'app-customer-list-page',

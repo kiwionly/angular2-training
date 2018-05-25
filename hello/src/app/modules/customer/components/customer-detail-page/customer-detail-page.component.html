@@ -1,4 +1,4 @@
-<div class="user" [style.background-color]="color">
+<div class="user" [style.background-color]="color" *ngIf="user">
   <div>{{user.name}}</div>
   <div>{{user.username}}</div>
   <div>{{user.email}}</div>

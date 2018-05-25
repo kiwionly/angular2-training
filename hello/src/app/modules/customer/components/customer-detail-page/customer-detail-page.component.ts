@@ -11,7 +11,7 @@ import { IExit } from '../../../../login.guard';
 })
 export class CustomerDetailPageComponent implements OnInit, IExit {
 
-  user: User = {};
+  user = {};
   color: string;
 
   constructor(private h: HeaderService, private router: Router, private route: ActivatedRoute) {
